@@ -7,7 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222831;
+}
+
+h1, h2 {
+  color: #00adb5;
+}
+
+label {
+  color: #eeeeee;
+}
+
+.card {
+  background-color: #eeeeee;
 }
